@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Libs">
+      <UniqueIdentifier>{37d0cfa8-5c8c-4542-aa9b-f9522f5fff92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{97630d9f-93d2-4170-8108-968fb9c1fc05}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Includes\TinyXML\include\tinystr.cpp">
+      <Filter>Libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\TinyXML\include\tinyxml.cpp">
+      <Filter>Libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\TinyXML\include\tinyxmlerror.cpp">
+      <Filter>Libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\TinyXML\include\tinyxmlparser.cpp">
+      <Filter>Libs</Filter>
+    </ClCompile>
+    <ClCompile Include="language.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Includes\TinyXML\include\tinystr.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\TinyXML\include\tinyxml.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="headers.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shared\language.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
