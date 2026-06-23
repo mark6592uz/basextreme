@@ -1,0 +1,7 @@
+For those interesting to mess around with the code, here are some notes about the engine.
+
+
+Component - Container for entities. Earlier the engine was divided into a bunch of .dll's. A component, was basically a .dll that is loaded.
+
+Entity - Engine's module responsible for some functionality. For example "Gameplay" entity is responsible for actual gameplay. "MainWnd" entity is responsible for opening a window.
+
